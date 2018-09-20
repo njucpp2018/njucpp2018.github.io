@@ -2,9 +2,7 @@
 
 授课时间：2018年秋
 
-授课老师：
-
-[于耀](http://ese.nju.edu.cn/faculty.php?name=yuyao&lang=cn)  allanyu@nju.edu.cn
+授课老师：于耀
 
 助教：江沛远、李昆伦
 
