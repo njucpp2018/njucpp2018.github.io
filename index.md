@@ -15,17 +15,9 @@
 
 备注：点击Lec可下载相应课件；点击Assignment可下载相应作业及答案
 
-## 阅读材料
+## 作业
 
-* C++ Primer
-
-* [学习C++：实践者的方法](http://blog.csdn.net/pongba/article/details/1930150)
-
-* [C++ reference](http://en.cppreference.com/w/)
-
-## 课程表
-
-* [assignment1](https://github.com/esecpp2017/esecpp2017.github.io/raw/master/LibArray.zip)截止日期：已截止
+* [assignment1](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/LibArray.zip)截止日期：已截止
    [assignment1 answer](https://github.com/esecpp2017/esecpp2017.github.io/raw/master/LibArray.rar)
 
 * [assignment2](https://github.com/esecpp2017/esecpp2017.github.io/raw/master/LibArrayClass.rar)截止日期：已截止
