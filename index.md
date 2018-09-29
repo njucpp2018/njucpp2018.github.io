@@ -17,7 +17,7 @@
 
 ## 作业提交情况
 
-* [assignment1_](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第一次作业名单（截止2018-09-29 15点）)
+* [assignment1_](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第一次作业名单（截止2018-09-29_15点）)
 
 备注：
 
