@@ -15,6 +15,10 @@
 
 * [assignment1](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/LibArray.zip)  截止日期：2018.9.29
 
+## 作业提交情况
+
+* [assignment1_](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第一次作业名单（截止2018-09-29 15点）)
+
 备注：
 
 1.作业提交以是否在提交时收到邮件自动回复为准。
