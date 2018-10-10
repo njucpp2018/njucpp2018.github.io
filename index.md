@@ -19,6 +19,11 @@
 
 * [assignment1_（截止2018-09-29_15点）](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第一次作业名单（截止2018-09-29_15点）.xlsx)
 
+## 课件
+
+* [3-C++对C的扩充 (4).ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/3-C++对C的扩充 (4).ppt)
+* [4-数据抽象－类 (2).ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/4-数据抽象－类 (2).ppt)
+
 备注：
 
 1.作业提交以是否在提交时收到邮件自动回复为准。
