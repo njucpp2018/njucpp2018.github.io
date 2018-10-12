@@ -22,7 +22,7 @@
 ## 课件
 
 * [3-C++对C的扩充 (4).ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/3-C++对C的扩充 (4).ppt)
-* [4-数据抽象－类 (2).ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/4-数据抽象－类 (2).ppt)
+* [4-数据抽象－类 (2).ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/4-数据抽象－类+(2).ppt)
 
 备注：
 
