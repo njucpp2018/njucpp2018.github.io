@@ -17,6 +17,8 @@
 
 * [assignment2](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment2.zip)  截止日期：2018.11.1
 
+* [assignment3](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment3.zip)  截止日期：2018.11.15
+
 ## 作业提交情况（严格按照格式要求，注意打包压缩，否则无效）
 
 * [assignment1_（截止2018-09-29_15点）](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第一次作业名单（截止2018-09-29_15点）.xlsx)
