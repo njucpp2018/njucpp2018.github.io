@@ -13,11 +13,13 @@
 
 ## 作业
 
-* [assignment1](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/LibArray.zip)  截止日期：2018.9.29
+* [assignment1](关闭下载)  截止日期：2018.9.29
 
-* [assignment2](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment2.zip)  截止日期：2018.11.1
+* [assignment2](关闭下载)  截止日期：2018.11.1
 
-* [assignment3](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment3.zip)  截止日期：2018.11.15
+* [assignment3](关闭下载)  截止日期：2018.11.15
+
+* [assignment4](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment4.zip)  截止日期：2018.11.29
 
 ## 作业提交情况（严格按照格式要求，注意打包压缩，否则无效）
 
