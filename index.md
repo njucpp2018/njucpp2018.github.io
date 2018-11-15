@@ -25,6 +25,12 @@
 
 * [作业提交情况_2](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_2.xlsx)
 
+* [作业提交情况_汇总_3](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_汇总_3.xlsx)
+截止到2018.11.15 12：00
+
+1.学号写成8位的同学，请重新发送作业。
+2.以‘-’连接的作业，在数字前加空格的作业，减10分。
+
 ## 课件
 
 * [3-C++对C的扩充 (4).ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/3-C++对C的扩充 (4).ppt)
