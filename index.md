@@ -26,10 +26,17 @@
 * [作业提交情况_2](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_2.xlsx)
 
 * [作业提交情况_汇总_3](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_汇总_3.xlsx)
+
 截止到2018.11.15 12：00
 
+
 1.学号写成8位的同学，请重新发送作业。
+
 2.以‘-’连接的作业，在数字前加空格的作业，减10分。
+
+格式要求：
+
+学号_姓名_第3次作业_第2次提交.zip/rar（zip中只需包含.cpp及.h文件）
 
 ## 课件
 
