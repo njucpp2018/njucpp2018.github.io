@@ -13,17 +13,17 @@
 
 ## 作业
 
-* assignment1 (关闭下载)  截止日期：2018.9.29
+* assignment1 (关闭下载)  截止日期：2018.9.29 [assignment1_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment1_answer.zip)
 
-* assignment2 (关闭下载)  截止日期：2018.11.1
+* assignment2 (关闭下载)  截止日期：2018.11.1 [assignment2_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment2_answer.zip)
 
-* assignment3 (关闭下载)  截止日期：2018.11.15
+* assignment3 (关闭下载)  截止日期：2018.11.15 [assignment3_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment3_answer.zip)
 
 * [assignment4](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment4.zip)  截止日期：2018.11.29
 
 ## 作业提交情况（严格按照格式要求，注意打包压缩，否则无效）
 
-* [作业提交情况_1](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_1.xlsx)
+* [作业提交情况_1](https://1github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_1.xlsx)
 
 * [作业提交情况_2](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_2.xlsx)
 
