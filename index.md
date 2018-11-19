@@ -42,7 +42,7 @@
 
 ## 课件
 
-* [3-C++对C的扩充.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/3-C++对C的扩充(4).ppt)
+* [3-C++对C的扩充.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/3-C++对C的扩充.ppt)
 * [4-数据抽象－类.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/4-数据抽象－类+(2).ppt)
 * [5-操作符重载.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/5-操作符重载+(3).pptx)
 
