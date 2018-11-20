@@ -46,7 +46,7 @@
 * [4-数据抽象－类.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/4-数据抽象－类+(2).ppt)
 * [5-操作符重载.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/5-操作符重载+(3).pptx)
 
-备注：
+## 备注：
 
 1.作业提交以是否在提交时收到邮件自动回复为准。
 
@@ -58,22 +58,22 @@
 
 1.  因为自赋值本身是一个没有实际作用的操作，而不阻止自赋值，则总会把operator=走一遍，也就是说，为了一个没有作用的事情付出开销，性价比为0。
 2.  对于带有指针的情况，例如下面的例子：
-    class A
-    {
-        char *buff; 
-        int size; 
-        public:
-        A &operator=(const A &rhs)
+        class A
         {
-            if (&rhs == this) return *this; 
+            char *buff; 
+            int size; 
+            public:
+            A &operator=(const A &rhs)
+            {
+                if (&rhs == this) return *this; 
 
-            delete []buff; 
-            buff = new char[rhs.size]; 
+                delete []buff; 
+                buff = new char[rhs.size]; 
 
-            size = rhs.size; 
-            memcpy(buff, rhs.buff, size); 
-        }
-    }; 
+                size = rhs.size; 
+                memcpy(buff, rhs.buff, size); 
+            }
+        }; 
     这种情况，很可能会先删除自己的动态内存，再根据右参重新开辟空间。那么，自赋值如果不组织，那么这个例子中，buff——也就是this->buff和rhs.buff是同一个变量（地址完全相同），因此，先delete []buff，等价于delete []rhs.buff，之后再重新给buff——等价于rhs.buff重新开辟空间，那么后面的memcpy，已经不是从最初那个rhs.buff拷贝内容了，而那里的内容也就完全丢失了。
     
 ### 浅拷贝问题
