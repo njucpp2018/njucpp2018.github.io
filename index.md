@@ -67,7 +67,7 @@ class A
     public:
     A &operator=(const A &rhs)
     {
-if (&rhs == this) return *this; 
+        if (&rhs == this) return *this; 
 
         delete []buff; 
         buff = new char[rhs.size]; 
@@ -77,46 +77,55 @@ if (&rhs == this) return *this; 
     }
 }; 
 ```
-    这种情况，很可能会先删除自己的动态内存，再根据右参重新开辟空间。那么，自赋值如果不组织，那么这个例子中，buff——也就是this->buff和rhs.buff是同一个变量（地址完全相同），因此，先delete []buff，等价于delete []rhs.buff，之后再重新给buff——等价于rhs.buff重新开辟空间，那么后面的memcpy，已经不是从最初那个rhs.buff拷贝内容了，而那里的内容也就完全丢失了。
+这种情况，很可能会先删除自己的动态内存，再根据右参重新开辟空间。那么，自赋值如果不组织，那么这个例子中，buff——也就是this->buff和rhs.buff是同一个变量（地址完全相同），因此，先delete []buff，等价于delete []rhs.buff，之后再重新给buff——等价于rhs.buff重新开辟空间，那么后面的memcpy，已经不是从最初那个rhs.buff拷贝内容了，而那里的内容也就完全丢失了。
     
 ### 浅拷贝问题
 
 1.  浅拷贝、深拷贝，都是拷贝函数，这里两种名称，区分的是对于那些有动态内存的类，对于动态内存是复制地址（指向相同空间），还是不复制地址（指向不同空间）而复制地址对应的内容：不如上面那个类A，假设有一个拷贝构造函数，那么对于buff的复制，有两种：
 
-    buff = rhs.buff；
-    
-    或者：
-    
-    buff = new char[rhs.size];
-    memcpy(buff, rhs.buff, size);
-    
-    前者为浅拷贝，后者为深拷贝。
+```
+buff = rhs.buff；
+```
 
-    大多数情况下，我们更愿意用深拷贝，否则会引起内存出错，但某些情况，比如智能指针，会选浅拷贝，因为这就是智能指针的目的。那么结合默认情况下，编译器给的拷贝是浅拷贝，我们就能够知道，我们到底应不应该自己去写自定义的拷贝构造函数了。
+或者：
+
+```
+buff = new char[rhs.size];
+memcpy(buff, rhs.buff, size);
+```
+
+前者为浅拷贝，后者为深拷贝。
+
+大多数情况下，我们更愿意用深拷贝，否则会引起内存出错，但某些情况，比如智能指针，会选浅拷贝，因为这就是智能指针的目的。那么结合默认情况下，编译器给的拷贝是浅拷贝，我们就能够知道，我们到底应不应该自己去写自定义的拷贝构造函数了。
     
 2.  考虑如下代码：
 
-    A function()
-    {
-        A local;
-        return local; 
-    }
+```
+A function()
+{
+    A local;
+    return local; 
+}
 
-    A result = function(); 
-    
-    在机器代码中，函数有一个存放返回值的地方（一般在栈上），注意这个东西和这里的local不是一回事，你可以把最后那句话，理解为两句话：
-    
-    A return_val = local; 
-    A result = return_val; 
-    
-    为什么return_val和local不是一个地方呢？因为local位于function调用是的栈上，调用结束后，就回收了，所以没法直接把local给result。
-    
-    所以，先把这个local放在一个和function内部想通，也和外部想通的return_val上，然后再给result。
 
-    理解这个之后，就会发现，单这一行其实会涉及两次析构，两次拷贝，按顺序分别是：
-    local拷贝给return_val，local析构，return_val拷贝给result，return_val析构。
+A result = function(); 
+```
 
-    再结合前面的浅拷贝知识，你就知道了，这里会存在内存多次释放问题了。
+在机器代码中，函数有一个存放返回值的地方（一般在栈上），注意这个东西和这里的local不是一回事，你可以把最后那句话，理解为两句话：
+
+```
+A return_val = local; 
+A result = return_val; 
+```
+
+为什么return_val和local不是一个地方呢？因为local位于function调用是的栈上，调用结束后，就回收了，所以没法直接把local给result。
+
+所以，先把这个local放在一个和function内部想通，也和外部想通的return_val上，然后再给result。
+
+理解这个之后，就会发现，单这一行其实会涉及两次析构，两次拷贝，按顺序分别是：
+local拷贝给return_val，local析构，return_val拷贝给result，return_val析构。
+
+再结合前面的浅拷贝知识，你就知道了，这里会存在内存多次释放问题了。
     
 3.  由于这里的两次拷贝有一定的效率损失，在后来的编译器中，加入了一种优化策略，就是直接把local拷贝给result，这种情况下，这句话仅会有一次析构和一次拷贝：
 local拷贝给result，local析构。
