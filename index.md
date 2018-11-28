@@ -21,6 +21,10 @@
 
 * [assignment4](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment4.zip)  截止日期：2018.11.29
 
+* [assignment5](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment5.zip)  截止日期：2018.12.13
+安全性问题报错，阅读：
+https://jingyan.baidu.com/article/47a29f24334312c01423992e.html
+
 ## 作业提交情况（严格按照格式要求，注意打包压缩，否则无效）
 
 * [作业提交情况_1](https://1github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_1.xlsx)
@@ -45,6 +49,7 @@
 * [3-C++对C的扩充.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/3-C++对C的扩充.ppt)
 * [4-数据抽象－类.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/4-数据抽象－类+(2).ppt)
 * [5-操作符重载.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/5-操作符重载+(3).pptx)
+* [第8章 继承－派生类 2018.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第8章 继承－派生类 2018.ppt)
 
 ## 备注：
 
