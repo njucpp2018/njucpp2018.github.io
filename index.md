@@ -22,8 +22,8 @@
 * [assignment4](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment4.zip)  截止日期：2018.11.29
 
 * [assignment5](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment5.zip)  截止日期：2018.12.13
-安全性问题报错，阅读：
-https://jingyan.baidu.com/article/47a29f24334312c01423992e.html
+* 安全性问题报错，阅读：
+* https://jingyan.baidu.com/article/47a29f24334312c01423992e.html
 
 ## 作业提交情况（严格按照格式要求，注意打包压缩，否则无效）
 
