@@ -19,30 +19,17 @@
 
 * assignment3 (关闭下载)  截止日期：2018.11.15  [assignment3_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment3_answer.zip)
 
-* [assignment4](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment4.zip)  截止日期：2018.11.29
+* assignment4 (关闭下载)  截止日期：2018.11.29  [assignment4_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/solutions/assignment4_answer_CPPListIterator.rar)
 
-* [assignment5](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment5.rar)  截止日期：2018.12.13
-* 安全性问题报错，阅读：
-* https://jingyan.baidu.com/article/47a29f24334312c01423992e.html
+* assignment5 (关闭下载)  截止日期：2018.12.21  [assignment5_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/solutions/assignment5_answer_Draw.zip)
 
 ## 作业提交情况（严格按照格式要求，注意打包压缩，否则无效）
 
-* [作业提交情况_1](https://1github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_1.xlsx)
-
-* [作业提交情况_2](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_2.xlsx)
-
 * [作业提交情况_汇总_3](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/作业提交情况_汇总_3.xlsx)
 
-截止到2018.11.15 12：00
+* 强调格式要求：
 
-
-1.学号写成8位的同学，请重新发送作业。
-
-2.以‘-’连接的作业，在数字前加空格的作业，减10分。
-
-格式要求：
-
-学号_姓名_第3次作业_第2次提交.zip/rar（zip中只需包含.cpp及.h文件）
+* 学号_姓名_第3次作业_第2次提交.zip/rar（zip中只需包含.cpp及.h文件）
 
 ## 课件
 
