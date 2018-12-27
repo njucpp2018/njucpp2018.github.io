@@ -24,9 +24,8 @@
 * assignment5 (关闭下载)  截止日期：2018.12.21  [assignment5_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/solutions/assignment5_answer_Draw.zip)
 
 * [assignment6](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment6.zip)  截止日期：本次作业不提交 
-```
-[Find.zip](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/Find.zip)
-```
+[//]: # [Find.zip](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/Find.zip)
+
 
 
 ## 作业提交情况（严格按照格式要求，注意打包压缩，否则无效）
