@@ -24,7 +24,7 @@
 * assignment5 (关闭下载)  截止日期：2018.12.21  [assignment5_answer](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/solutions/assignment5_answer_Draw.zip)
 
 * [assignment6](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/assignment6.zip)  截止日期：本次作业不提交 
-<!-- [Find.zip](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/Find.zip) -->
+ [Find.zip](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/Find.zip) 
 
 
 
@@ -42,6 +42,7 @@
 * [4-数据抽象－类.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/4-数据抽象－类+(2).ppt)
 * [5-操作符重载.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/5-操作符重载+(3).pptx)
 * [第8章 继承－派生类 2018.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第8章 继承－派生类 2018.ppt)
+
 * [第9章+类属机制－－模板.ppt](https://github.com/njucpp2018/njucpp2018.github.io/raw/master/第9章+类属机制－－模板.ppt)
 
 ## 备注：
